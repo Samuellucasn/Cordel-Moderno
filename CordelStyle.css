@@ -6,7 +6,6 @@
 }
 *{
     margin: 0%;
-    width: 100%;
 }
 header{
     background-color: black;
@@ -39,6 +38,8 @@ section.p1{
     background-repeat: no-repeat;
     height: 500px;
     width: auto;
+    box-shadow: inset 5px 3px 11px 0px rgba(0, 0, 0, 0.726);
+    background-attachment: fixed;
 }
 section.p1>p{
     padding: 10px;
@@ -58,6 +59,8 @@ section.p2{
     height: 500px;
     width: auto;
     position: relative;
+    box-shadow: inset 5px 3px 11px 0px rgba(0, 0, 0, 0.726);
+    background-attachment: fixed;
 }
 section.p2>p{
     padding: 10px;
